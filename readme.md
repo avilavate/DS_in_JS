@@ -7,4 +7,4 @@
 
  ## Changing inputs
 
- Modify the grapfh inputs from `main.ts` 
+ Modify grapph inputs from `main.ts` 
