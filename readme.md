@@ -9,12 +9,12 @@
   
  ## Graph
  
- ## How to Run?
+ ### How to Run?
 
  fire `tsc` command from root folder
 
  --> run command `node main.js`
 
- ## Changing inputs
+ ### Changing inputs
 
  Modify grapph inputs from `main.ts` 
