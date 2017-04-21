@@ -1,5 +1,5 @@
 # Data Structure in JavaScript
- ##How to Run?
+ ## How to Run?
 
  fire `tsc` command from root folder
 
