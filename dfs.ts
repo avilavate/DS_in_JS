@@ -4,7 +4,7 @@ export interface VTrack {
     v: number;
     visited: boolean;
 }
-
+console.log("----------DFS---------")
 export var DFS = function (graph: Graph, source: number) {
     let S: Array<VTrack>=[];
     S.push({ v: source, visited: true });

@@ -12,6 +12,7 @@ graphObj.addEdge(eSet);
 graphObj.addEdge({ v1: 2, v2: 7 });
 graphObj.addEdge({ v1: 2, v2: 5 });
 graphObj.addEdge({ v1: 5, v2: 6 });
+graphObj.addEdge({ v1: 1, v2: 4 });
 console.log(graphObj.getTotalEdges());
 console.log(graphObj.getTotalVirtices());
 console.log(graphObj.getAllNeighbours(2));
