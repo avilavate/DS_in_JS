@@ -1,5 +1,5 @@
-import { Graph, Edge } from './graphs';
-import { DFS } from './dfs';
+import { Graph, Edge } from './directed-graphs';
+import { DFS } from './directed-dfs';
 
 let graphObj = new Graph([], []);
 let vSet: Array<number> = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -16,9 +16,4 @@ graphObj.addEdge({ v1: 3, v2: 2 });
 graphObj.addEdge({ v1: 1, v2: 3 });
 
 //Disconnected edge (from'2')
-
-console.log(graphObj.getTotalEdges());
-console.log(graphObj.getTotalVirtices());
-console.log(graphObj.getAllNeighbours(2));
-
 DFS(graphObj, 1);
