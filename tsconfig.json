@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution":"classic",
+    "target": "ES5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+ 
+    "rootDir": ".",
+    "sourceMap": false
+  }
+}
