@@ -1,0 +1,34 @@
+{
+  "name": "ds-in-js",
+  "version": "1.0.0",
+  "description": "Series of code  about data structures reimplemented in JavaScript.",
+  "main": "main.js",
+  "scripts": {
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avilavate/DS_in_JS.git"
+  },
+  "keywords": [
+    "Data",
+    "Structure",
+    "Sets",
+    "Graphs",
+    "DFS",
+    "BFS"
+  ],
+  "author": "Avil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avilavate/DS_in_JS/issues"
+  },
+  "homepage": "https://github.com/avilavate/DS_in_JS#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "d3": "^4.8.0"
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graphs</title>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <!--<script src='./drawing-utils/circle.js'></script>-->
+    <script src="./directed-graphs.js"></script>
+    <script src="./drawing-utils/circle.js"></script>
+    <script src="./drawing-utils/line.js"></script>
+    <script src="./directed-dfs.js"></script>
+    <script src="./drawing-utils/svg.js"></script>
+    <script src='./main.js'></script>
+</head>
+
+<body>
+    <button onclick="GetGraph()">Get Graph</button>
+    <hr>
+    <svg width="800" height="800" id="svg">
+        <script>
+            //drawCircle(20, 20, '1')
+            main.drawNodes();
+            main.drawEdges();
+            function GetGraph() {
+                window.location.reload(false)
+            }
+        </script>
+
+</body>
+
+</html>

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Graph = (function () {
     function Graph(vertices, edges) {
         this.vertices = vertices;
@@ -38,4 +36,3 @@ var Graph = (function () {
     };
     return Graph;
 }());
-exports.Graph = Graph;

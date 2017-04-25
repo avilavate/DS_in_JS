@@ -1,11 +1,11 @@
-import { Graph, Edge } from './graphs';
+//import { Graph, Edge } from './graphs';
 
-export interface VTrack {
+ interface VTrack {
     v: number;
     visited: boolean;
 }
 console.log("----------DFS---------")
-export var DFS = function (graph: Graph, source: number) {
+ var DFS = function (graph: Graph, source: number) {
     let visitedNodes: Array<number> = [];
     console.time("DFS");
     let S: Array<VTrack> = [];

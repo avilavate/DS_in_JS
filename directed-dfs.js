@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("----------DFS---------");
-exports.DFS = function (graph, source) {
+var DFS = function (graph, source) {
     var visitedNodes = [];
     console.time("DFS");
     var S = [];

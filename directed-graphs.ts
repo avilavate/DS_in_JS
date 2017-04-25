@@ -1,9 +1,9 @@
-export interface Edge {
+interface Edge {
     v1: number;
     v2: number
 }
 
-export class Graph {
+ class Graph {
     constructor(public vertices: Array<number>, public edges: Array<Edge>) { }
 
     addVirtex(v: number): boolean {
