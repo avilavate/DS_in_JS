@@ -17,4 +17,4 @@
 
  ### Changing inputs
 
- Modify grapph inputs from `main.ts` 
+ Modify grapph inputs from `main.ts` or run `npm run serve`
